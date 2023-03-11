@@ -38,7 +38,7 @@ import win32com.client as win32
 
 outlook = win32.Dispatch('outlook.application') #conecta o python com o outlook
 mail = outlook.CreateItem(0)     #cria um email
-mail.To = 'wolski.reserva@gmail.com'
+mail.To = 'endereço de email que receberá o relatório'
 mail.Subject = 'Relatório de Vendas por Loja'
 mail.HTMLBody = f''' 
 <p>Prezados,</p>
@@ -55,7 +55,7 @@ mail.HTMLBody = f'''
 {ticket_medio.to_html(formatters={'Ticket Médio': 'R${:,.2f}'.format})}
 
 <p>Qualquer dúvida estou a disposição!</p>.
-<p>Atenciosamente, Emanuelly Wolski</p>
+<p>Atenciosamente, nome</p>
 
 '''
 
