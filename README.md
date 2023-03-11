@@ -9,6 +9,14 @@ O objetivo deste projeto foi realizar o envio de um relatório de Vendas de vár
 ☑ Pandas - Biblioteca para manipulação e análise de dados. Em particular, oferece estruturas e operações para manipular tabelas <br>
 ☑ Pywin32 - Biblioteca utilizada para integrar o Python com o Windows <br>
 ☑ Outlook - Necessário ter instalado e configurado com um email.
+☑ HTML - Linguagem de marcação utilizada para formatar o email.
+
+ <div style="display: inline_block"><br>
+   <img align="center" title="Python"alt="Python" height="52"width="52"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+   <img align="center" title="Pycharm" height="120"width="90"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original-wordmark.svg" />
+   <img align="center" title="Git"alt="Git" height="44"width="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
+   <img align="center" title="HTML"alt="HTML" height="40"width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg">
+</div>
 
 
 ### Passo a Passo ✅
@@ -34,3 +42,5 @@ O objetivo deste projeto foi realizar o envio de um relatório de Vendas de vár
 -> Fazendo o commit: git commit -m "Commit inicial" <br>
 -> Se conectando ao repositório criado para o projeto no Github: git remote add origin "link do repositório" <br>
 -> Adicionando os arquivos no repositório: git push -u origin main
+
+
